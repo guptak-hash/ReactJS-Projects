@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Accordion from './components/accordion/Accordion'
 import RandomColor from './components/RandomColorGenerator/RandomColor'
+import StarRating from './components/star-rating/Star-Rating'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
     <>
       <div>
         {/* <Accordion/> */}
-        <RandomColor/>
+        {/* <RandomColor/> */}
+        <StarRating/>
       </div>
     </>
   )

@@ -1,0 +1,26 @@
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.child{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+
+}
+
+.products{
+    padding: 20px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.products img{
+    height: 200px;
+    width: 200px;
+}
